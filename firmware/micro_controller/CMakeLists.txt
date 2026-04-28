@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "main_fin.cpp"
+        "lighting_fin.cpp"
+        "sensors_fin.cpp"
+        "wifi_fin.cpp"
+        "network_fin.cpp"
+        "charge_controller_uart.cpp"
+    INCLUDE_DIRS
+        "."
+)
